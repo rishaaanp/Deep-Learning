@@ -82,8 +82,8 @@ batch = gradient_descent(X, y, batch_size=len(X))
 # Stochastic Gradient Descent
 sgd = gradient_descent(X, y, batch_size=1)
 
-# Mini-Batch Gradient Descent (Batch Size = 128)
-mini = gradient_descent(X, y, batch_size=128)
+# Mini-Batch Gradient Descent (Batch Size = 64)
+mini = gradient_descent(X, y, batch_size=64)
 
 # -----------------------------------------------------
 # Display Results
